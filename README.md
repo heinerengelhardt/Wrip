@@ -1,5 +1,5 @@
 # Wrip
-Wrip is a utility of extraction (ripping) any audio files from an audio CD. The files can be ripped in either the plain WAV format or to a compressed file format. Wrip supports the mp3 format and the ogg vorbis.
+![wrip_logo](https://user-images.githubusercontent.com/45694082/120651041-9e8e9580-c47e-11eb-84ae-12f2c96a96ce.jpg) Wrip is a utility of extraction (ripping) any audio files from an audio CD. The files can be ripped in either the plain WAV format or to a compressed file format. Wrip supports the mp3 format and the ogg vorbis.
 
 In addition, Wrip is free software (freeware).
 
@@ -12,7 +12,9 @@ Features:
 * Adding ID3 tags
 * Specification of "thread priority" levels for encode processing
 
-Your valuable suggestions for improvement are welcome.
+Wrip is using the lame encoder from www.mp3dev.org, the ogg vorbis encoder from www.xiph.org, akrip from www.akrip.sourceforge.net and id3lib from id3lib.sourceforge.net.
+
+Logo credits go to Adam Kreuschner (adam.kreuschner@dvoid.org).
 
 ## Screenshots
 ![image](https://user-images.githubusercontent.com/45694082/120648283-bdd7f380-c47b-11eb-98d9-d4d028ab341d.png)
