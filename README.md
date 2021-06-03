@@ -1,2 +1,2 @@
 # Wrip
- Wrip - CD Player, Ripper and Encoder
+CD Player, Ripper and Encoder
