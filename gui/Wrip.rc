@@ -1,0 +1,635 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Deutsch (Deutschland) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_DEU)
+#ifdef _WIN32
+LANGUAGE LANG_GERMAN, SUBLANG_GERMAN
+#pragma code_page(1252)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_DEU)\r\n"
+    "#ifdef _WIN32\r\n"
+    "LANGUAGE 7, 1\r\n"
+    "#pragma code_page(1252)\r\n"
+    "#endif //_WIN32\r\n"
+    "#include ""res\\Wrip.rc2""  // Nicht mit Microsoft Visual C++ bearbeitete Ressourcen\r\n"
+    "#include ""l.deu\\afxres.rc""          // Standardkomponenten\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON    DISCARDABLE     "res\\MISC01.ICO"
+IDI_ICON_TOMP3          ICON    DISCARDABLE     "res\\icon1.ico"
+IDI_ICON_EXIT           ICON    DISCARDABLE     "res\\ico00001.ico"
+IDI_ICON_CDDB           ICON    DISCARDABLE     "res\\ico00002.ico"
+IDI_ICON_TOWAV          ICON    DISCARDABLE     "res\\icon2.ico"
+IDI_ICON_NEXT           ICON    DISCARDABLE     "res\\icon_nex.ico"
+IDI_ICON_PREV           ICON    DISCARDABLE     "res\\icon_pre.ico"
+IDI_ICON_PLAY           ICON    DISCARDABLE     "res\\icon_pla.ico"
+IDI_ICON_STOP           ICON    DISCARDABLE     "res\\icon_sto.ico"
+IDI_ICON_EJECT          ICON    DISCARDABLE     "res\\icon_eje.ico"
+IDI_ICON_INFO           ICON    DISCARDABLE     "res\\ico00003.ico"
+IDI_ICON_REFRESH        ICON    DISCARDABLE     "res\\ico00005.ico"
+IDI_ICON_ARROW_DOWN     ICON    DISCARDABLE     "res\\ico00006.ico"
+IDI_ICON_ARROW_UP       ICON    DISCARDABLE     "res\\icon_arr.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_ABOUTBOX DIALOGEX 0, 0, 119, 129
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Info about Wrip"
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,7,111,105,14,WS_GROUP
+    CONTROL         163,IDC_STATIC,"Static",SS_BITMAP,7,7,108,77,
+                    WS_EX_STATICEDGE
+    EDITTEXT        IDC_EDIT_ABOUT,7,86,105,21,ES_MULTILINE | ES_AUTOHSCROLL | 
+                    ES_READONLY | WS_VSCROLL
+END
+
+IDD_WRIP_DIALOG DIALOGEX 0, 0, 269, 247
+STYLE DS_MODALFRAME | DS_3DLOOK | DS_CENTER | WS_MINIMIZEBOX | WS_POPUP | 
+    WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_APPWINDOW
+CAPTION "Wrip 1.1"
+FONT 8, "MS Sans Serif", 0, 0, 0x1
+BEGIN
+    PUSHBUTTON      "TO MP3",IDC_BUTTON_TOMP3,202,210,29,25,BS_ICON | 
+                    BS_CENTER | BS_VCENTER,WS_EX_CLIENTEDGE
+    DEFPUSHBUTTON   "Exit",IDC_BUTTON_EXIT,240,210,29,25,BS_ICON | BS_CENTER | 
+                    BS_VCENTER,WS_EX_CLIENTEDGE
+    PUSHBUTTON      "To Wav",IDC_BUTTON_TOWAV,173,210,29,25,BS_ICON | 
+                    BS_CENTER | BS_VCENTER,WS_EX_CLIENTEDGE
+    PUSHBUTTON      "CDDB",IDC_BUTTON_CDDB,144,210,29,25,BS_ICON | BS_CENTER | 
+                    BS_VCENTER,WS_EX_CLIENTEDGE
+    PUSHBUTTON      "=",IDC_BUTTON_EJECT,36,210,14,25,BS_ICON | BS_CENTER | 
+                    BS_VCENTER,WS_EX_CLIENTEDGE
+    PUSHBUTTON      "#",IDC_BUTTON_STOP,50,210,29,12,BS_ICON | BS_CENTER | 
+                    BS_VCENTER,WS_EX_CLIENTEDGE
+    PUSHBUTTON      ">",IDC_BUTTON_PLAY,79,210,29,12,BS_ICON | BS_CENTER | 
+                    BS_VCENTER,WS_EX_CLIENTEDGE
+    PUSHBUTTON      "|<<",IDC_BUTTON_PREV,50,223,29,12,BS_ICON | BS_CENTER | 
+                    BS_VCENTER,WS_EX_CLIENTEDGE
+    PUSHBUTTON      ">>|",IDC_BUTTON_NEXT,79,223,29,12,BS_ICON | BS_CENTER | 
+                    BS_VCENTER,WS_EX_CLIENTEDGE
+    CONTROL         "Tab1",IDC_TAB,"SysTabControl32",TCS_HOTTRACK | 
+                    TCS_FIXEDWIDTH | TCS_TOOLTIPS | WS_BORDER | WS_TABSTOP,0,
+                    12,268,196
+    COMBOBOX        IDC_COMBO_DRIVES,0,0,268,209,CBS_DROPDOWNLIST | 
+                    CBS_NOINTEGRALHEIGHT | WS_VSCROLL | WS_TABSTOP
+    PUSHBUTTON      "Info",IDC_BUTTON_INFO,0,210,29,25,BS_ICON | BS_CENTER | 
+                    BS_VCENTER,WS_EX_CLIENTEDGE
+    PUSHBUTTON      "",IDC_BUTTON_REFRESH,115,210,29,25,BS_ICON | BS_CENTER | 
+                    BS_VCENTER,WS_EX_CLIENTEDGE
+END
+
+IDD_PREFERENCES DIALOGEX 5, 30, 255, 172
+STYLE WS_CHILD
+FONT 8, "MS Sans Serif", 0, 0, 0x1
+BEGIN
+    CONTROL         "Tab1",IDC_TAB,"SysTabControl32",TCS_HOTTRACK | 
+                    TCS_FIXEDWIDTH | TCS_TOOLTIPS,0,0,255,172,
+                    WS_EX_STATICEDGE
+END
+
+IDD_INFORMATION DIALOGEX 5, 30, 255, 173
+STYLE WS_CHILD
+FONT 8, "MS Sans Serif"
+BEGIN
+    LTEXT           "Wrip version 1.1",IDC_STATIC,125,18,59,8,SS_NOPREFIX
+    LTEXT           "Copyright © 2001 - 2003 by\n\n\tHeiner Engelhardt\n\tengelhardt@dvoid.org\n\twww.dvoid.org",
+                    IDC_STATIC,125,34,109,40
+    GROUPBOX        "",IDC_STATIC,0,0,255,86
+    LTEXT           "Wrip is using the lame encoder from www.mp3dev.org, the ogg vorbis encoder from www.xiph.org, akrip from akrip.sourceforge.net and id3lib from id3lib.sourceforge.net.",
+                    IDC_STATIC,5,110,244,26
+    GROUPBOX        "",IDC_STATIC,0,104,255,34
+    CONTROL         163,IDC_STATIC,"Static",SS_BITMAP,3,7,105,77,
+                    WS_EX_STATICEDGE
+    CONTROL         "",IDC_STATIC,"Static",SS_ETCHEDFRAME,0,157,255,16
+    LTEXT           "Thanks to Adam Kreuschner (kreuschner@dvoid.org) who designed the Logo",
+                    IDC_STATIC,4,161,247,8
+END
+
+IDD_TRACKS DIALOGEX 5, 30, 255, 174
+STYLE WS_CHILD
+FONT 8, "MS Sans Serif", 0, 0, 0x1
+BEGIN
+    CONTROL         "List1",IDC_LIST,"SysListView32",LVS_REPORT | 
+                    LVS_SINGLESEL | LVS_SHOWSELALWAYS | LVS_EDITLABELS | 
+                    WS_BORDER | WS_TABSTOP,0,14,255,160,WS_EX_TRANSPARENT
+    LTEXT           "Artist",IDC_STATIC,13,0,16,12,SS_CENTERIMAGE
+    LTEXT           "Album",IDC_STATIC,94,0,20,12,SS_CENTERIMAGE
+    LTEXT           "Genre",IDC_STATIC,178,0,20,12,SS_CENTERIMAGE
+    EDITTEXT        IDC_EDIT_ARTIST,32,0,58,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_ALBUM,117,0,57,12,ES_AUTOHSCROLL
+    COMBOBOX        IDC_COMBO_GENRE,202,0,53,157,CBS_DROPDOWNLIST | 
+                    CBS_AUTOHSCROLL | CBS_DISABLENOSCROLL | WS_VSCROLL | 
+                    WS_TABSTOP
+    PUSHBUTTON      "",IDC_BUTTON_SELECTALL,0,0,10,12,BS_ICON | BS_CENTER | 
+                    BS_VCENTER,WS_EX_CLIENTEDGE
+END
+
+IDD_CONVERSION DIALOG DISCARDABLE  5, 30, 255, 174
+STYLE WS_CHILD
+FONT 8, "MS Sans Serif"
+BEGIN
+    GROUPBOX        "Rip",IDC_STATIC,0,0,255,77
+    GROUPBOX        "Encode",IDC_STATIC,0,80,255,77
+    PUSHBUTTON      "Cancel",IDC_BUTTON_CANCEL,111,159,35,14
+    CONTROL         "Progress1",IDC_PROGRESS_WAV,"msctls_progress32",
+                    WS_BORDER,7,64,242,8
+    CONTROL         "Progress2",IDC_PROGRESS_MP3,"msctls_progress32",
+                    WS_BORDER,7,144,242,8
+    LTEXT           "Progress:",IDC_STATIC,7,51,30,8
+    LTEXT           "Progress:",IDC_STATIC,7,131,30,8
+    RTEXT           "0 %",IDC_STATIC_WAV_PERCENT,67,51,35,8
+    RTEXT           "0 %",IDC_STATIC_MP3_PERCENT,67,131,35,8,SS_CENTERIMAGE
+    LTEXT           "Track:",IDC_STATIC,7,11,22,8
+    LTEXT           "Track:",IDC_STATIC,7,91,22,8
+    CONTROL         "Static",IDC_STATIC_WAV_TRACK,"Static",SS_LEFTNOWORDWRAP | 
+                    WS_GROUP,67,11,150,8
+    LTEXT           "Static",IDC_STATIC_MP3_TRACK,67,91,150,8
+    LTEXT           "First sector:",IDC_STATIC,7,24,37,8
+    LTEXT           "Last sector:",IDC_STATIC,7,38,38,8
+    LTEXT           "Current sector:",IDC_STATIC,160,38,47,8
+    RTEXT           "0",IDC_STATIC_WAV_CURRENTSECTOR,216,38,33,8
+    RTEXT           "0",IDC_STATIC_WAV_ENDSECTOR,67,38,35,8
+    RTEXT           "0",IDC_STATIC_WAV_STARTSECTOR,67,24,35,8
+    RTEXT           "( 10 / 10 )",IDC_STATIC_WAV_COUNT,217,11,32,8
+    RTEXT           "( 10 / 10 )",IDC_STATIC_MP3_COUNT,217,91,32,8
+    LTEXT           "Size of WAV file:",IDC_STATIC,7,104,54,8
+    LTEXT           "Size of Encoded file:",IDC_STATIC,7,118,66,8
+    RTEXT           "0",IDC_STATIC_WAV_SIZE,67,104,35,8
+    RTEXT           "0",IDC_STATIC_MP3_SIZE,73,118,29,8
+    LTEXT           "MB",IDC_STATIC,107,104,12,8
+    LTEXT           "MB",IDC_STATIC,107,118,12,8
+    LTEXT           "Read:",IDC_STATIC,174,104,20,8
+    RTEXT           "MB",IDC_STATIC,235,104,14,8
+    RTEXT           "0",IDC_STATIC_WAV_CURRENTSIZE,200,104,31,8
+    CONTROL         "Shutdown Windows\nwhen finished",IDC_CHECK_SHUTDOWN,
+                    "Button",BS_AUTOCHECKBOX | BS_MULTILINE | WS_TABSTOP,177,
+                    158,78,16
+END
+
+IDD_COMMON DIALOG DISCARDABLE  5, 16, 242, 150
+STYLE WS_CHILD
+FONT 8, "MS Sans Serif"
+BEGIN
+    GROUPBOX        "Output",IDC_STATIC,0,0,241,75
+    GROUPBOX        "CDDB",IDC_STATIC,0,75,241,75
+    EDITTEXT        IDC_EDIT_DESTINATION,46,14,166,12,ES_AUTOHSCROLL
+    PUSHBUTTON      "...",IDC_BUTTON_BROWSE,217,14,17,12,BS_CENTER | 
+                    BS_VCENTER
+    LTEXT           "Destination",IDC_STATIC,7,14,38,12,SS_CENTERIMAGE
+    LTEXT           "Folder",IDC_STATIC,7,39,20,12,SS_CENTERIMAGE
+    LTEXT           "File",IDC_STATIC,7,56,12,12,SS_CENTERIMAGE
+    COMBOBOX        IDC_COMBO_FOLDER,34,39,115,105,CBS_DROPDOWN | WS_VSCROLL | 
+                    WS_TABSTOP
+    COMBOBOX        IDC_COMBO_FILE,34,56,115,88,CBS_DROPDOWN | WS_VSCROLL | 
+                    WS_TABSTOP
+    CONTROL         "",IDC_STATIC,"Static",SS_ETCHEDHORZ,7,32,227,1
+    LTEXT           "<nr>\t = track number\n<artist>\t = artist\n<album> = album\n<title>\t = title",
+                    IDC_STATIC,157,39,77,33
+    LTEXT           "CDDB Server",IDC_STATIC,7,88,44,12,SS_CENTERIMAGE
+    COMBOBOX        IDC_COMBO_CDDB,57,88,177,62,CBS_DROPDOWNLIST | 
+                    WS_VSCROLL | WS_TABSTOP
+    CONTROL         "Use a proxy server",IDC_CHECK_PROXY,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,57,119,75,10
+    LTEXT           "Proxy Server",IDC_STATIC,7,132,41,12,SS_CENTERIMAGE
+    LTEXT           "Port",IDC_STATIC,175,132,14,12,SS_CENTERIMAGE
+    EDITTEXT        IDC_EDIT_PROXY,57,132,98,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_PORT,194,132,40,12,ES_RIGHT | ES_AUTOHSCROLL
+    CONTROL         "",IDC_STATIC,"Static",SS_ETCHEDHORZ,7,111,227,1
+END
+
+IDD_MP3 DIALOG DISCARDABLE  0, 23, 242, 126
+STYLE WS_CHILD
+FONT 8, "MS Sans Serif"
+BEGIN
+    GROUPBOX        "",IDC_STATIC,0,0,241,126
+    LTEXT           "Bitrate",IDC_STATIC,8,27,21,12,SS_CENTERIMAGE
+    LTEXT           "Frequency",IDC_STATIC,8,44,34,12,SS_CENTERIMAGE
+    LTEXT           "Quality",IDC_STATIC,8,63,22,12,SS_CENTERIMAGE
+    LTEXT           "Mode",IDC_STATIC,8,80,19,12,SS_CENTERIMAGE
+    CONTROL         "CRC error correction",IDC_CHECK_CRC,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,8,107,80,12
+    COMBOBOX        IDC_COMBO_BITRATE,61,27,54,117,CBS_DROPDOWNLIST | 
+                    WS_VSCROLL | WS_TABSTOP
+    COMBOBOX        IDC_COMBO_FREQUENCY,61,44,54,100,CBS_DROPDOWNLIST | 
+                    WS_VSCROLL | WS_TABSTOP
+    COMBOBOX        IDC_COMBO_QUALITY,61,63,54,83,CBS_DROPDOWNLIST | 
+                    WS_VSCROLL | WS_TABSTOP
+    COMBOBOX        IDC_COMBO_MODE,61,80,54,65,CBS_DROPDOWNLIST | WS_VSCROLL | 
+                    WS_TABSTOP
+    LTEXT           "kbps",IDC_STATIC,120,27,19,12,SS_CENTERIMAGE
+    LTEXT           "Hz",IDC_STATIC,120,44,10,12,SS_CENTERIMAGE
+    LTEXT           "Version",IDC_STATIC,8,10,24,12,SS_CENTERIMAGE
+    COMBOBOX        IDC_COMBO_VERSION,61,10,54,134,CBS_DROPDOWNLIST | 
+                    WS_VSCROLL | WS_TABSTOP
+    CONTROL         "Use VBR",IDC_CHECK_VBR,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,153,10,44,12
+    LTEXT           "Quality",IDC_STATIC,153,44,22,12,SS_CENTERIMAGE
+    LTEXT           "Max",IDC_STATIC,153,27,14,12,SS_CENTERIMAGE
+    COMBOBOX        IDC_COMBO_VBRQUALITY,181,44,52,100,CBS_DROPDOWNLIST | 
+                    WS_VSCROLL | WS_TABSTOP
+    COMBOBOX        IDC_COMBO_ID3,181,90,52,48,CBS_DROPDOWNLIST | WS_VSCROLL | 
+                    WS_TABSTOP
+    LTEXT           "ID3 tag",IDC_STATIC,153,90,24,12,SS_CENTERIMAGE
+    COMBOBOX        IDC_COMBO_MAXBITRATE,181,27,52,117,CBS_DROPDOWNLIST | 
+                    WS_VSCROLL | WS_TABSTOP
+    LTEXT           "Playlist",IDC_STATIC,153,107,22,12,SS_CENTERIMAGE
+    COMBOBOX        IDC_COMBO_PLAYLIST,181,107,52,49,CBS_DROPDOWNLIST | 
+                    WS_VSCROLL | WS_TABSTOP
+END
+
+IDD_WAV DIALOG DISCARDABLE  5, 16, 242, 150
+STYLE WS_CHILD
+FONT 8, "MS Sans Serif"
+BEGIN
+    GROUPBOX        "",IDC_STATIC,0,0,241,150
+    LTEXT           "Read sectors",IDC_STATIC,136,11,43,12,SS_CENTERIMAGE
+    LTEXT           "Read overlap",IDC_STATIC,136,45,44,12,SS_CENTERIMAGE
+    LTEXT           "Block compare",IDC_STATIC,136,28,48,12,SS_CENTERIMAGE
+    CONTROL         "Enable Jitter correction",IDC_CHECK_JITTER,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,8,11,89,12
+    PUSHBUTTON      "Reset",IDC_BUTTON_RESET,191,66,40,14
+    EDITTEXT        IDC_EDIT_READSECTORS,191,11,40,12,ES_RIGHT | 
+                    ES_AUTOHSCROLL | ES_NUMBER
+    EDITTEXT        IDC_EDIT_BLOCKCOMPARE,191,28,40,12,ES_RIGHT | 
+                    ES_AUTOHSCROLL | ES_NUMBER
+    EDITTEXT        IDC_EDIT_READOVERLAP,191,45,40,12,ES_RIGHT | 
+                    ES_AUTOHSCROLL | ES_NUMBER
+    CONTROL         "Delete wav files after encoding",
+                    IDC_CHECK_DELETEAFTERENCODE,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,8,98,113,10
+    CONTROL         "",IDC_STATIC,"Static",SS_ETCHEDHORZ,8,89,223,1
+END
+
+IDD_SPLASH DIALOGEX 0, 0, 105, 95
+STYLE DS_MODALFRAME | DS_NOIDLEMSG | DS_SETFOREGROUND | DS_3DLOOK | 
+    DS_CENTER | WS_POPUP | WS_VISIBLE
+FONT 8, "MS Sans Serif", 0, 0, 0x1
+BEGIN
+    LTEXT           "Initialzing, please wait...",IDC_STATIC,1,79,104,9
+    CONTROL         "Progress1",IDC_PROGRESS,"msctls_progress32",PBS_SMOOTH,
+                    0,88,105,8
+    CONTROL         163,IDC_STATIC,"Static",SS_BITMAP,0,2,105,77,
+                    WS_EX_STATICEDGE
+END
+
+IDD_OGG DIALOG DISCARDABLE  0, 23, 242, 126
+STYLE WS_CHILD
+FONT 8, "MS Sans Serif"
+BEGIN
+    GROUPBOX        "",IDC_STATIC,0,0,241,126
+    LTEXT           "Minimal Bitrate",IDC_STATIC,7,9,46,12,SS_CENTERIMAGE
+    LTEXT           "Nominal Bitrate",IDC_STATIC,7,26,48,12,SS_CENTERIMAGE
+    LTEXT           "Maximum Bitrate",IDC_STATIC,7,43,52,12,SS_CENTERIMAGE
+    COMBOBOX        IDC_COMBO_MINBITRATE,64,9,47,114,CBS_DROPDOWNLIST | 
+                    WS_VSCROLL | WS_TABSTOP
+    COMBOBOX        IDC_COMBO_NOMBITRATE,64,26,47,98,CBS_DROPDOWNLIST | 
+                    WS_VSCROLL | WS_TABSTOP
+    COMBOBOX        IDC_COMBO_MAXBITRATE,64,43,47,81,CBS_DROPDOWNLIST | 
+                    WS_VSCROLL | WS_TABSTOP
+    LTEXT           "kbps",IDC_STATIC,118,9,19,12,SS_CENTERIMAGE
+    LTEXT           "kbps",IDC_STATIC,118,26,19,12,SS_CENTERIMAGE
+    LTEXT           "kbps",IDC_STATIC,118,43,19,12,SS_CENTERIMAGE
+    COMBOBOX        IDC_COMBO_FREQUENCY,64,61,47,63,CBS_DROPDOWNLIST | 
+                    WS_VSCROLL | WS_TABSTOP
+    LTEXT           "Hz",IDC_STATIC,118,62,10,12,SS_CENTERIMAGE
+    LTEXT           "Frequency",IDC_STATIC,7,62,34,12,SS_CENTERIMAGE
+    COMBOBOX        IDC_COMBO_CHANNELS,64,79,47,46,CBS_DROPDOWNLIST | 
+                    WS_VSCROLL | WS_TABSTOP
+    LTEXT           "Channels",IDC_STATIC,7,79,30,12,SS_CENTERIMAGE
+    CONTROL         "Use VBR",IDC_CHECK_VBR,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,162,9,44,12
+    LTEXT           "Quality",IDC_STATIC,162,26,22,12,SS_CENTERIMAGE
+    COMBOBOX        IDC_COMBO_VBRQUALITY,191,26,42,100,CBS_DROPDOWNLIST | 
+                    WS_VSCROLL | WS_TABSTOP
+    LTEXT           "Playlist",IDC_STATIC,153,107,22,12,SS_CENTERIMAGE
+    COMBOBOX        IDC_COMBO_PLAYLIST,181,107,52,57,CBS_DROPDOWNLIST | 
+                    WS_VSCROLL | WS_TABSTOP
+END
+
+IDD_ENCODER DIALOG DISCARDABLE  5, 16, 242, 150
+STYLE WS_CHILD
+FONT 8, "MS Sans Serif"
+BEGIN
+    LTEXT           "Thread priority",-1,119,7,46,12,SS_CENTERIMAGE
+    COMBOBOX        IDC_COMBO_THREADPRIORITY,169,7,73,141,CBS_DROPDOWNLIST | 
+                    WS_VSCROLL | WS_TABSTOP
+    LTEXT           "Encoder",-1,0,7,28,12,SS_CENTERIMAGE
+    COMBOBOX        IDC_COMBO_ENCODER,30,7,83,140,CBS_DROPDOWNLIST | 
+                    WS_VSCROLL | WS_TABSTOP
+END
+
+
+#ifndef _MAC
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,1,0,0
+ PRODUCTVERSION 1,1,0,0
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x9L
+#else
+ FILEFLAGS 0x8L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040904b0"
+        BEGIN
+            VALUE "Comments", "Freeware\0"
+            VALUE "CompanyName", "dvoid.org\0"
+            VALUE "FileDescription", "Wrip\0"
+            VALUE "FileVersion", "1.1\0"
+            VALUE "InternalName", "Wrip\0"
+            VALUE "LegalCopyright", "Copyright © 2001 - 2003\0"
+            VALUE "LegalTrademarks", "\0"
+            VALUE "OriginalFilename", "Wrip.EXE\0"
+            VALUE "PrivateBuild", "CD Player, Ripper & Encoder\0"
+            VALUE "ProductName", "Wrip\0"
+            VALUE "ProductVersion", "1.1\0"
+            VALUE "SpecialBuild", "\0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x409, 1200
+    END
+END
+
+#endif    // !_MAC
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    IDD_ABOUTBOX, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 112
+        VERTGUIDE, 60
+        VERTGUIDE, 112
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 125
+    END
+
+    IDD_WRIP_DIALOG, DIALOG
+    BEGIN
+        VERTGUIDE, 36
+        VERTGUIDE, 79
+        BOTTOMMARGIN, 235
+        HORZGUIDE, 210
+        HORZGUIDE, 234
+    END
+
+    IDD_TRACKS, DIALOG
+    BEGIN
+        VERTGUIDE, 13
+        VERTGUIDE, 32
+        VERTGUIDE, 90
+        VERTGUIDE, 94
+    END
+
+    IDD_CONVERSION, DIALOG
+    BEGIN
+        VERTGUIDE, 7
+        VERTGUIDE, 67
+        VERTGUIDE, 102
+        VERTGUIDE, 107
+        VERTGUIDE, 128
+        VERTGUIDE, 160
+        VERTGUIDE, 200
+        VERTGUIDE, 235
+        VERTGUIDE, 249
+        HORZGUIDE, 11
+        HORZGUIDE, 19
+        HORZGUIDE, 24
+        HORZGUIDE, 32
+        HORZGUIDE, 38
+        HORZGUIDE, 46
+        HORZGUIDE, 59
+        HORZGUIDE, 64
+        HORZGUIDE, 72
+        HORZGUIDE, 91
+        HORZGUIDE, 99
+        HORZGUIDE, 104
+        HORZGUIDE, 112
+        HORZGUIDE, 118
+        HORZGUIDE, 126
+        HORZGUIDE, 139
+        HORZGUIDE, 144
+        HORZGUIDE, 152
+    END
+
+    IDD_COMMON, DIALOG
+    BEGIN
+        VERTGUIDE, 7
+        VERTGUIDE, 57
+        VERTGUIDE, 234
+        HORZGUIDE, 14
+        HORZGUIDE, 26
+        HORZGUIDE, 39
+        HORZGUIDE, 51
+        HORZGUIDE, 56
+        HORZGUIDE, 75
+        HORZGUIDE, 88
+        HORZGUIDE, 100
+        HORZGUIDE, 144
+    END
+
+    IDD_MP3, DIALOG
+    BEGIN
+        VERTGUIDE, 8
+        VERTGUIDE, 233
+        HORZGUIDE, 7
+    END
+
+    IDD_WAV, DIALOG
+    BEGIN
+        VERTGUIDE, 8
+        VERTGUIDE, 136
+        VERTGUIDE, 191
+        VERTGUIDE, 231
+        HORZGUIDE, 11
+        HORZGUIDE, 23
+        HORZGUIDE, 28
+        HORZGUIDE, 40
+        HORZGUIDE, 45
+        HORZGUIDE, 57
+    END
+
+    IDD_SPLASH, DIALOG
+    BEGIN
+        HORZGUIDE, 79
+        HORZGUIDE, 88
+    END
+
+    IDD_OGG, DIALOG
+    BEGIN
+        VERTGUIDE, 7
+        VERTGUIDE, 64
+        VERTGUIDE, 111
+        VERTGUIDE, 118
+        VERTGUIDE, 162
+        HORZGUIDE, 9
+        HORZGUIDE, 21
+        HORZGUIDE, 26
+        HORZGUIDE, 38
+        HORZGUIDE, 43
+        HORZGUIDE, 55
+        HORZGUIDE, 62
+        HORZGUIDE, 74
+        HORZGUIDE, 79
+        HORZGUIDE, 91
+    END
+
+    IDD_ENCODER, DIALOG
+    BEGIN
+        BOTTOMMARGIN, 148
+        HORZGUIDE, 7
+        HORZGUIDE, 19
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDR_MENU MENU DISCARDABLE 
+BEGIN
+    POPUP "Wrip", MENUBARBREAK
+    BEGIN
+        MENUITEM "Play",                        ID_MENU_PLAY
+        MENUITEM "Stop",                        ID_MENU_STOP
+        MENUITEM SEPARATOR
+        MENUITEM "Rip",                         ID_MENU_TOWAV
+        MENUITEM "Encode",                      ID_MENU_TOMP3
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDB_LOGO                BITMAP  DISCARDABLE     "res\\wrip.bmp"
+IDB_ICONS               BITMAP  DISCARDABLE     "res\\bitmap1.bmp"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// REGISTRY
+//
+
+IDR_WRIP                REGISTRY DISCARDABLE    "Wrip.rgs"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_ABOUTBOX            "Inf&o about Wrip..."
+    IDP_SOCKETS_INIT_FAILED "Fehler beim Initialisieren der Windows-Sockets."
+    CG_IDS_PHYSICAL_MEM     "%lu KB"
+    CG_IDS_DISK_SPACE       "%lu KB Free on %c:"
+    CG_IDS_DISK_SPACE_UNAVAIL "Unavailable"
+END
+
+#endif    // Deutsch (Deutschland) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_DEU)
+#ifdef _WIN32
+LANGUAGE 7, 1
+#pragma code_page(1252)
+#endif //_WIN32
+#include "res\Wrip.rc2"  // Nicht mit Microsoft Visual C++ bearbeitete Ressourcen
+#include "l.deu\afxres.rc"          // Standardkomponenten
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

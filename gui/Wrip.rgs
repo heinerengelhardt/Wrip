@@ -1,0 +1,11 @@
+HKCR
+{
+	NoRemove AppID
+	{
+		{A81A2F40-FE92-4AF0-99CA-41B2EF60CFB6} = s 'Wrip'
+		'Wrip.EXE'
+		{
+			val AppID = s {A81A2F40-FE92-4AF0-99CA-41B2EF60CFB6}
+		}
+	}
+}

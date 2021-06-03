@@ -1,0 +1,4 @@
+akrip32 ist open source and licensed under the LGPL.
+there is a copy of the LGPL in this directory!
+
+http://akrip.sourceforge.net

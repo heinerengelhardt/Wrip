@@ -1,0 +1,6 @@
+; Wrip.def : Deklariert die Modul-Parameter für die DLL.
+
+LIBRARY      "Wrip"
+DESCRIPTION  'Wrip Windows Dynamic Link Library'
+
+EXPORTS

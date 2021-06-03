@@ -1,0 +1,19 @@
+
+	// Wrip.idl : IDL-Quellcode für Wrip.exe
+//
+// Diese Datei wird von dem Programm MIDL verarbeitet, um
+// die Typbibliothek (Wrip.tlb) und Marshalling-Code zu erstellen.
+import "oaidl.idl";
+import "ocidl.idl";
+[
+	uuid(946036A0-5965-4846-A7A2-D71D77422CD8),
+	version(1.0),
+	helpstring("Wrip 1.0 Typbibliothek")
+]
+library WripLib
+{
+	importlib("stdole32.tlb");
+	importlib("stdole2.tlb");
+};
+
+	

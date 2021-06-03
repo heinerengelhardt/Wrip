@@ -1,0 +1,126 @@
+//{{NO_DEPENDENCIES}}
+// Microsoft Developer Studio generated include file.
+// Used by Wrip.rc
+//
+#define IDM_ABOUTBOX                    0x0010
+#define IDD_ABOUTBOX                    100
+#define IDS_ABOUTBOX                    101
+#define IDD_WRIP_DIALOG                 102
+#define IDP_SOCKETS_INIT_FAILED         103
+#define CG_IDS_PHYSICAL_MEM             105
+#define CG_IDS_DISK_SPACE               106
+#define CG_IDS_DISK_SPACE_UNAVAIL       107
+#define IDR_WRIP                        108
+#define IDR_MAINFRAME                   128
+#define IDI_ICON_TOMP3                  135
+#define IDI_ICON_EXIT                   136
+#define IDI_ICON_CDDB                   137
+#define IDI_ICON_TOWAV                  138
+#define IDI_ICON_NEXT                   139
+#define IDI_ICON_PREV                   140
+#define IDI_ICON_PLAY                   141
+#define IDI_ICON_STOP                   142
+#define IDI_ICON_EJECT                  143
+#define IDD_PREFERENCES                 144
+#define IDD_INFORMATION                 145
+#define IDD_TRACKS                      146
+#define IDI_ICON_INFO                   147
+#define IDD_CONVERSION                  147
+#define IDD_COMMON                      148
+#define IDD_MP3                         149
+#define IDI_ICON_BROWSE                 149
+#define IDD_WAV                         150
+#define IDI_ICON_REFRESH                152
+#define IDD_SPLASH                      153
+#define IDI_ICON_ARROW_DOWN             154
+#define IDD_OGG                         154
+#define IDI_ICON_ARROW_UP               155
+#define IDD_ENCODER                     155
+#define IDR_MENU                        156
+#define IDB_LOGO                        163
+#define IDI_ICON1                       173
+#define IDI_ICON2                       174
+#define IDB_ICONS                       178
+#define IDC_BUTTON_TOMP3                1001
+#define IDC_BUTTON_EXIT                 1003
+#define IDC_BUTTON_TOWAV                1004
+#define IDC_BUTTON_CDDB                 1005
+#define IDC_BUTTON_EJECT                1006
+#define IDC_BUTTON_STOP                 1007
+#define IDC_BUTTON_PLAY                 1008
+#define IDC_BUTTON_PREV                 1009
+#define IDC_BUTTON_NEXT                 1010
+#define IDC_TAB                         1011
+#define IDC_COMBO_DRIVES                1012
+#define IDC_STATIC_STATUS               1013
+#define IDC_STATIC_STATUS2              1014
+#define IDC_LIST                        1016
+#define IDC_BUTTON_INFO                 1017
+#define IDC_EDIT_ARTIST                 1025
+#define IDC_EDIT_ALBUM                  1028
+#define IDC_EDIT_DESTINATION            1036
+#define IDC_BUTTON_BROWSE               1037
+#define IDC_COMBO_FOLDER                1038
+#define IDC_COMBO_FILE                  1039
+#define IDC_COMBO_CDDB                  1041
+#define IDC_CHECK_PROXY                 1042
+#define IDC_EDIT_PROXY                  1043
+#define IDC_EDIT_PORT                   1044
+#define IDC_BUTTON_REFRESH              1045
+#define IDC_CHECK_JITTER                1046
+#define IDC_BUTTON_RESET                1047
+#define IDC_EDIT_READSECTORS            1048
+#define IDC_EDIT_BLOCKCOMPARE           1049
+#define IDC_EDIT_READOVERLAP            1050
+#define IDC_CHECK_DELETEAFTERENCODE     1051
+#define IDC_CHECK_CRC                   1054
+#define IDC_COMBO_BITRATE               1055
+#define IDC_COMBO_FREQUENCY             1056
+#define IDC_COMBO_QUALITY               1057
+#define IDC_COMBO_MODE                  1058
+#define IDC_COMBO_VERSION               1059
+#define IDC_CHECK_VBR                   1060
+#define IDC_COMBO_VBRQUALITY            1064
+#define IDC_BUTTON_CANCEL               1068
+#define IDC_PROGRESS_WAV                1071
+#define IDC_PROGRESS_MP3                1072
+#define IDC_COMBO_GENRE                 1073
+#define IDC_COMBO_ID3                   1074
+#define IDC_COMBO_THREADPRIORITY        1075
+#define IDC_COMBO_MAXBITRATE            1076
+#define IDC_BUTTON_SELECTALL            1077
+#define IDC_STATIC_WAV_TRACK            1078
+#define IDC_STATIC_WAV_STARTSECTOR      1079
+#define IDC_STATIC_WAV_ENDSECTOR        1080
+#define IDC_STATIC_WAV_CURRENTSECTOR    1081
+#define IDC_STATIC_WAV_PERCENT          1082
+#define IDC_STATIC_WAV_COUNT            1083
+#define IDC_STATIC_MP3_COUNT            1084
+#define IDC_COMBO_PLAYLIST              1087
+#define IDC_STATIC_MP3_PERCENT          1088
+#define IDC_STATIC_MP3_TRACK            1089
+#define IDC_STATIC_WAV_SIZE             1090
+#define IDC_STATIC_MP3_SIZE             1091
+#define IDC_STATIC_WAV_CURRENTSIZE      1092
+#define IDC_PROGRESS                    1093
+#define IDC_COMBO_ENCODER               1095
+#define IDC_COMBO_MINBITRATE            1096
+#define IDC_COMBO_NOMBITRATE            1097
+#define IDC_COMBO_CHANNELS              1103
+#define IDC_EDIT_ABOUT                  1104
+#define IDC_CHECK_SHUTDOWN              1105
+#define ID_MENU_PLAY                    40004
+#define ID_MENU_TOWAV                   40005
+#define ID_MENU_TOMP3                   40006
+#define ID_MENU_STOP                    40007
+
+// Next default values for new objects
+// 
+#ifdef APSTUDIO_INVOKED
+#ifndef APSTUDIO_READONLY_SYMBOLS
+#define _APS_NEXT_RESOURCE_VALUE        184
+#define _APS_NEXT_COMMAND_VALUE         40008
+#define _APS_NEXT_CONTROL_VALUE         1106
+#define _APS_NEXT_SYMED_VALUE           109
+#endif
+#endif

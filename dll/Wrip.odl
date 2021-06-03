@@ -1,0 +1,13 @@
+// Wrip.odl : Quellcode der Typbibliothek für Wrip.dll
+
+[ uuid(884F6EDD-436A-45AD-A85E-1EC5DB4943E7), version(1.0) ]
+library Wrip
+{
+	importlib("stdole32.tlb");
+	importlib("stdole2.tlb");
+	
+
+
+	//{{AFX_APPEND_ODL}}
+	//}}AFX_APPEND_ODL}}
+};
